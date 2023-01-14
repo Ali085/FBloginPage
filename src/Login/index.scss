@@ -1,0 +1,100 @@
+.LoginSec {
+    min-height: 80vh;
+    width: 100%;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .Image {
+        img {
+            width: 250px;
+        }
+    }
+
+    .FormikDiv {
+        background-color: white;
+        min-height: 55vh;
+        width: 420px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 92%;
+            margin: 0 auto;
+            gap: 10px;
+            justify-content: space-between;
+
+            input {
+                height: 45px;
+                border-radius: 7px;
+                border: 1px solid rgb(199, 197, 197);
+            }
+
+            button {
+                background-color: #1877f2;
+                color: white;
+                height: 45px;
+                border-radius: 6px;
+                border: none;
+                font-size: 20px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: .2s;
+            &:hover{
+                background-color:#1262cc ;
+            }
+            }
+        }
+    }
+
+    .Bottom {
+        padding: 30px;
+
+        a {
+            color: #459af7;
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .Btn {
+            background-color: #42b72a;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            border-radius: 6px;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            transition: .2s;
+            &:hover{
+                background-color:#2d881b ;
+            }
+        }
+    }
+}
+
+.normal{
+    border: 1px solid black;
+}
+.error{
+    border: 3px solid rgb(255, 0, 0) !important;
+}

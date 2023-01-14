@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.RegisterSec {
+    min-height: 90vh;
+    width: 100%;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .Image {
+        img {
+            width: 280px;
+        }
+    }
+
+    .AllDiv {
+        background-color: white;
+        width: 440px;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        h3 {
+            font-size: 24px;
+            padding: 10px 0 10px 0;
+        }
+
+        hr {
+            width: 100%;
+            margin: 20px 0 15px 0;
+            columns: rgb(199, 197, 197);
+        }
+
+        .Name {
+            display: flex;
+
+            input {
+                width: 195px;
+                margin: 3px;
+                height: 35px;
+                border-radius: 4px;
+                border: 1px solid rgb(199, 197, 197);
+
+            }
+        }
+
+        .EmailPass {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+
+            input {
+                width: 100%;
+                margin: 3px;
+                height: 35px;
+                border-radius: 4px;
+                border: 1px solid rgb(199, 197, 197);
+
+            }
+        }
+
+        .dogumDiv {
+            width: 90%;
+
+            p {
+                font-size: 12px;
+                color: gray;
+                padding: 10px 0 10px 0;
+            }
+
+            form {
+                display: flex;
+                justify-content: space-between;
+
+                select {
+                    width: 32%;
+                    padding-left: 3px;
+                    height: 30px;
+                }
+            }
+        }
+
+        .cinsDiv {
+            width: 90%;
+
+            p {
+                font-size: 12px;
+                color: gray;
+                padding: 10px 0 10px 0;
+            }
+
+            form {
+                display: flex;
+                justify-content: space-between;
+
+                div {
+                    width: 32%;
+                    padding-left: 3px;
+                    height: 30px;
+                    border: 1px solid rgb(199, 197, 197);
+                    display: flex;
+                    justify-content: space-around;
+
+                }
+            }
+        }
+
+        .Rule {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-top: 10px;
+
+            p {
+                font-size: 12px;
+                color: gray;
+
+            }
+        }
+
+        .bottomRooter {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            button {
+                background-color: #42b72a;
+                padding: 8px 70px 8px 70px;
+                cursor: pointer;
+                color: white;
+                border-radius: 6px;
+                border: none;
+                font-size: 18px;
+                font-weight: 600;
+                transition: .2s;
+                margin-top: 20px;
+
+                &:hover {
+                    background-color: #2d881b;
+                }
+            }
+
+            a {
+                color: #459af7;
+                text-decoration: none;
+                padding: 20px;
+            }
+        }
+
+    }
+}
+.normal{
+    border: 1px solid black !important;
+}
+.error{
+    border: 3px solid rgb(255, 0, 0) !important;
+}
